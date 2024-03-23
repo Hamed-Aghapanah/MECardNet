@@ -1,0 +1,153 @@
+layer 1 => input_tensor                  [(None, 256, 256, 3)]                     param = 1.0 
+layer 2 => convnext_tiny_prestem_normalization(None, 256, 256, 3)             param = 196608 
+layer 3 => convnext_tiny_stem            (None, 64, 64, 96)                  param = 393216 
+layer 4 => convnext_tiny_stage_0_block_0_depthwise_conv(None, 64, 64, 96)    param = 393216 
+layer 5 => convnext_tiny_stage_0_block_0_layernorm(None, 64, 64, 96)         param = 393216 
+layer 6 => convnext_tiny_stage_0_block_0_pointwise_conv_1(None, 64, 64, 384)  param = 1572864 
+layer 7 => convnext_tiny_stage_0_block_0_gelu(None, 64, 64, 384)              param = 1572864 
+layer 8 => convnext_tiny_stage_0_block_0_pointwise_conv_2(None, 64, 64, 96)  param = 393216 
+layer 9 => convnext_tiny_stage_0_block_0_layer_scale(None, 64, 64, 96)       param = 393216 
+layer 10 => convnext_tiny_stage_0_block_0_identity(None, 64, 64, 96)          param = 393216 
+layer 11 => tf.__operators__.add          (None, 64, 64, 96)                  param = 393216 
+layer 12 => convnext_tiny_stage_0_block_1_depthwise_conv(None, 64, 64, 96)    param = 393216 
+layer 13 => convnext_tiny_stage_0_block_1_layernorm(None, 64, 64, 96)         param = 393216 
+layer 14 => convnext_tiny_stage_0_block_1_pointwise_conv_1(None, 64, 64, 384)  param = 1572864 
+layer 15 => convnext_tiny_stage_0_block_1_gelu(None, 64, 64, 384)              param = 1572864 
+layer 16 => convnext_tiny_stage_0_block_1_pointwise_conv_2(None, 64, 64, 96)  param = 393216 
+layer 17 => convnext_tiny_stage_0_block_1_layer_scale(None, 64, 64, 96)       param = 393216 
+layer 18 => convnext_tiny_stage_0_block_1_identity(None, 64, 64, 96)          param = 393216 
+layer 19 => tf.__operators__.add_1        (None, 64, 64, 96)                  param = 393216 
+layer 20 => convnext_tiny_stage_0_block_2_depthwise_conv(None, 64, 64, 96)    param = 393216 
+layer 21 => convnext_tiny_stage_0_block_2_layernorm(None, 64, 64, 96)         param = 393216 
+layer 22 => convnext_tiny_stage_0_block_2_pointwise_conv_1(None, 64, 64, 384)  param = 1572864 
+layer 23 => convnext_tiny_stage_0_block_2_gelu(None, 64, 64, 384)              param = 1572864 
+layer 24 => convnext_tiny_stage_0_block_2_pointwise_conv_2(None, 64, 64, 96)  param = 393216 
+layer 25 => convnext_tiny_stage_0_block_2_layer_scale(None, 64, 64, 96)       param = 393216 
+layer 26 => convnext_tiny_stage_0_block_2_identity(None, 64, 64, 96)          param = 393216 
+layer 27 => tf.__operators__.add_2        (None, 64, 64, 96)                  param = 393216 
+layer 28 => convnext_tiny_downsampling_block_0(None, 32, 32, 192)              param = 196608 
+layer 29 => convnext_tiny_stage_1_block_0_depthwise_conv(None, 32, 32, 192)    param = 196608 
+layer 30 => convnext_tiny_stage_1_block_0_layernorm(None, 32, 32, 192)         param = 196608 
+layer 31 => convnext_tiny_stage_1_block_0_pointwise_conv_1(None, 32, 32, 768)  param = 786432 
+layer 32 => convnext_tiny_stage_1_block_0_gelu(None, 32, 32, 768)              param = 786432 
+layer 33 => convnext_tiny_stage_1_block_0_pointwise_conv_2(None, 32, 32, 192)  param = 196608 
+layer 34 => convnext_tiny_stage_1_block_0_layer_scale(None, 32, 32, 192)       param = 196608 
+layer 35 => convnext_tiny_stage_1_block_0_identity(None, 32, 32, 192)          param = 196608 
+layer 36 => tf.__operators__.add_3        (None, 32, 32, 192)                  param = 196608 
+layer 37 => convnext_tiny_stage_1_block_1_depthwise_conv(None, 32, 32, 192)    param = 196608 
+layer 38 => convnext_tiny_stage_1_block_1_layernorm(None, 32, 32, 192)         param = 196608 
+layer 39 => convnext_tiny_stage_1_block_1_pointwise_conv_1(None, 32, 32, 768)  param = 786432 
+layer 40 => convnext_tiny_stage_1_block_1_gelu(None, 32, 32, 768)              param = 786432 
+layer 41 => convnext_tiny_stage_1_block_1_pointwise_conv_2(None, 32, 32, 192)  param = 196608 
+layer 42 => convnext_tiny_stage_1_block_1_layer_scale(None, 32, 32, 192)       param = 196608 
+layer 43 => convnext_tiny_stage_1_block_1_identity(None, 32, 32, 192)          param = 196608 
+layer 44 => tf.__operators__.add_4        (None, 32, 32, 192)                  param = 196608 
+layer 45 => convnext_tiny_stage_1_block_2_depthwise_conv(None, 32, 32, 192)    param = 196608 
+layer 46 => convnext_tiny_stage_1_block_2_layernorm(None, 32, 32, 192)         param = 196608 
+layer 47 => convnext_tiny_stage_1_block_2_pointwise_conv_1(None, 32, 32, 768)  param = 786432 
+layer 48 => convnext_tiny_stage_1_block_2_gelu(None, 32, 32, 768)              param = 786432 
+layer 49 => convnext_tiny_stage_1_block_2_pointwise_conv_2(None, 32, 32, 192)  param = 196608 
+layer 50 => convnext_tiny_stage_1_block_2_layer_scale(None, 32, 32, 192)       param = 196608 
+layer 51 => convnext_tiny_stage_1_block_2_identity(None, 32, 32, 192)          param = 196608 
+layer 52 => tf.__operators__.add_5        (None, 32, 32, 192)                  param = 196608 
+layer 53 => convnext_tiny_downsampling_block_1(None, 16, 16, 384)              param = 98304 
+layer 54 => convnext_tiny_stage_2_block_0_depthwise_conv(None, 16, 16, 384)    param = 98304 
+layer 55 => convnext_tiny_stage_2_block_0_layernorm(None, 16, 16, 384)         param = 98304 
+layer 56 => convnext_tiny_stage_2_block_0_pointwise_conv_1(None, 16, 16, 1536)  param = 393216 
+layer 57 => convnext_tiny_stage_2_block_0_gelu(None, 16, 16, 1536)              param = 393216 
+layer 58 => convnext_tiny_stage_2_block_0_pointwise_conv_2(None, 16, 16, 384)  param = 98304 
+layer 59 => convnext_tiny_stage_2_block_0_layer_scale(None, 16, 16, 384)       param = 98304 
+layer 60 => convnext_tiny_stage_2_block_0_identity(None, 16, 16, 384)          param = 98304 
+layer 61 => tf.__operators__.add_6        (None, 16, 16, 384)                  param = 98304 
+layer 62 => convnext_tiny_stage_2_block_1_depthwise_conv(None, 16, 16, 384)    param = 98304 
+layer 63 => convnext_tiny_stage_2_block_1_layernorm(None, 16, 16, 384)         param = 98304 
+layer 64 => convnext_tiny_stage_2_block_1_pointwise_conv_1(None, 16, 16, 1536)  param = 393216 
+layer 65 => convnext_tiny_stage_2_block_1_gelu(None, 16, 16, 1536)              param = 393216 
+layer 66 => convnext_tiny_stage_2_block_1_pointwise_conv_2(None, 16, 16, 384)  param = 98304 
+layer 67 => convnext_tiny_stage_2_block_1_layer_scale(None, 16, 16, 384)       param = 98304 
+layer 68 => convnext_tiny_stage_2_block_1_identity(None, 16, 16, 384)          param = 98304 
+layer 69 => tf.__operators__.add_7        (None, 16, 16, 384)                  param = 98304 
+layer 70 => convnext_tiny_stage_2_block_2_depthwise_conv(None, 16, 16, 384)    param = 98304 
+layer 71 => convnext_tiny_stage_2_block_2_layernorm(None, 16, 16, 384)         param = 98304 
+layer 72 => convnext_tiny_stage_2_block_2_pointwise_conv_1(None, 16, 16, 1536)  param = 393216 
+layer 73 => convnext_tiny_stage_2_block_2_gelu(None, 16, 16, 1536)              param = 393216 
+layer 74 => convnext_tiny_stage_2_block_2_pointwise_conv_2(None, 16, 16, 384)  param = 98304 
+layer 75 => convnext_tiny_stage_2_block_2_layer_scale(None, 16, 16, 384)       param = 98304 
+layer 76 => convnext_tiny_stage_2_block_2_identity(None, 16, 16, 384)          param = 98304 
+layer 77 => tf.__operators__.add_8        (None, 16, 16, 384)                  param = 98304 
+layer 78 => convnext_tiny_stage_2_block_3_depthwise_conv(None, 16, 16, 384)    param = 98304 
+layer 79 => convnext_tiny_stage_2_block_3_layernorm(None, 16, 16, 384)         param = 98304 
+layer 80 => convnext_tiny_stage_2_block_3_pointwise_conv_1(None, 16, 16, 1536)  param = 393216 
+layer 81 => convnext_tiny_stage_2_block_3_gelu(None, 16, 16, 1536)              param = 393216 
+layer 82 => convnext_tiny_stage_2_block_3_pointwise_conv_2(None, 16, 16, 384)  param = 98304 
+layer 83 => convnext_tiny_stage_2_block_3_layer_scale(None, 16, 16, 384)       param = 98304 
+layer 84 => convnext_tiny_stage_2_block_3_identity(None, 16, 16, 384)          param = 98304 
+layer 85 => tf.__operators__.add_9        (None, 16, 16, 384)                  param = 98304 
+layer 86 => convnext_tiny_stage_2_block_4_depthwise_conv(None, 16, 16, 384)    param = 98304 
+layer 87 => convnext_tiny_stage_2_block_4_layernorm(None, 16, 16, 384)         param = 98304 
+layer 88 => convnext_tiny_stage_2_block_4_pointwise_conv_1(None, 16, 16, 1536)  param = 393216 
+layer 89 => convnext_tiny_stage_2_block_4_gelu(None, 16, 16, 1536)              param = 393216 
+layer 90 => convnext_tiny_stage_2_block_4_pointwise_conv_2(None, 16, 16, 384)  param = 98304 
+layer 91 => convnext_tiny_stage_2_block_4_layer_scale(None, 16, 16, 384)       param = 98304 
+layer 92 => convnext_tiny_stage_2_block_4_identity(None, 16, 16, 384)          param = 98304 
+layer 93 => tf.__operators__.add_10       (None, 16, 16, 384)                  param = 98304 
+layer 94 => convnext_tiny_stage_2_block_5_depthwise_conv(None, 16, 16, 384)    param = 98304 
+layer 95 => convnext_tiny_stage_2_block_5_layernorm(None, 16, 16, 384)         param = 98304 
+layer 96 => convnext_tiny_stage_2_block_5_pointwise_conv_1(None, 16, 16, 1536)  param = 393216 
+layer 97 => convnext_tiny_stage_2_block_5_gelu(None, 16, 16, 1536)              param = 393216 
+layer 98 => convnext_tiny_stage_2_block_5_pointwise_conv_2(None, 16, 16, 384)  param = 98304 
+layer 99 => convnext_tiny_stage_2_block_5_layer_scale(None, 16, 16, 384)       param = 98304 
+layer 100 => convnext_tiny_stage_2_block_5_identity(None, 16, 16, 384)          param = 98304 
+layer 101 => tf.__operators__.add_11       (None, 16, 16, 384)                  param = 98304 
+layer 102 => convnext_tiny_stage_2_block_6_depthwise_conv(None, 16, 16, 384)    param = 98304 
+layer 103 => convnext_tiny_stage_2_block_6_layernorm(None, 16, 16, 384)         param = 98304 
+layer 104 => convnext_tiny_stage_2_block_6_pointwise_conv_1(None, 16, 16, 1536)  param = 393216 
+layer 105 => convnext_tiny_stage_2_block_6_gelu(None, 16, 16, 1536)              param = 393216 
+layer 106 => convnext_tiny_stage_2_block_6_pointwise_conv_2(None, 16, 16, 384)  param = 98304 
+layer 107 => convnext_tiny_stage_2_block_6_layer_scale(None, 16, 16, 384)       param = 98304 
+layer 108 => convnext_tiny_stage_2_block_6_identity(None, 16, 16, 384)          param = 98304 
+layer 109 => tf.__operators__.add_12       (None, 16, 16, 384)                  param = 98304 
+layer 110 => convnext_tiny_stage_2_block_7_depthwise_conv(None, 16, 16, 384)    param = 98304 
+layer 111 => convnext_tiny_stage_2_block_7_layernorm(None, 16, 16, 384)         param = 98304 
+layer 112 => convnext_tiny_stage_2_block_7_pointwise_conv_1(None, 16, 16, 1536)  param = 393216 
+layer 113 => convnext_tiny_stage_2_block_7_gelu(None, 16, 16, 1536)              param = 393216 
+layer 114 => convnext_tiny_stage_2_block_7_pointwise_conv_2(None, 16, 16, 384)  param = 98304 
+layer 115 => convnext_tiny_stage_2_block_7_layer_scale(None, 16, 16, 384)       param = 98304 
+layer 116 => convnext_tiny_stage_2_block_7_identity(None, 16, 16, 384)          param = 98304 
+layer 117 => tf.__operators__.add_13       (None, 16, 16, 384)                  param = 98304 
+layer 118 => convnext_tiny_stage_2_block_8_depthwise_conv(None, 16, 16, 384)    param = 98304 
+layer 119 => convnext_tiny_stage_2_block_8_layernorm(None, 16, 16, 384)         param = 98304 
+layer 120 => convnext_tiny_stage_2_block_8_pointwise_conv_1(None, 16, 16, 1536)  param = 393216 
+layer 121 => convnext_tiny_stage_2_block_8_gelu(None, 16, 16, 1536)              param = 393216 
+layer 122 => convnext_tiny_stage_2_block_8_pointwise_conv_2(None, 16, 16, 384)  param = 98304 
+layer 123 => convnext_tiny_stage_2_block_8_layer_scale(None, 16, 16, 384)       param = 98304 
+layer 124 => convnext_tiny_stage_2_block_8_identity(None, 16, 16, 384)          param = 98304 
+layer 125 => tf.__operators__.add_14       (None, 16, 16, 384)                  param = 98304 
+layer 126 => convnext_tiny_downsampling_block_2(None, 8, 8, 768)              param = 49152 
+layer 127 => convnext_tiny_stage_3_block_0_depthwise_conv(None, 8, 8, 768)    param = 49152 
+layer 128 => convnext_tiny_stage_3_block_0_layernorm(None, 8, 8, 768)         param = 49152 
+layer 129 => convnext_tiny_stage_3_block_0_pointwise_conv_1(None, 8, 8, 3072)  param = 196608 
+layer 130 => convnext_tiny_stage_3_block_0_gelu(None, 8, 8, 3072)              param = 196608 
+layer 131 => convnext_tiny_stage_3_block_0_pointwise_conv_2(None, 8, 8, 768)  param = 49152 
+layer 132 => convnext_tiny_stage_3_block_0_layer_scale(None, 8, 8, 768)       param = 49152 
+layer 133 => convnext_tiny_stage_3_block_0_identity(None, 8, 8, 768)          param = 49152 
+layer 134 => tf.__operators__.add_15       (None, 8, 8, 768)                  param = 49152 
+layer 135 => convnext_tiny_stage_3_block_1_depthwise_conv(None, 8, 8, 768)    param = 49152 
+layer 136 => convnext_tiny_stage_3_block_1_layernorm(None, 8, 8, 768)         param = 49152 
+layer 137 => convnext_tiny_stage_3_block_1_pointwise_conv_1(None, 8, 8, 3072)  param = 196608 
+layer 138 => convnext_tiny_stage_3_block_1_gelu(None, 8, 8, 3072)              param = 196608 
+layer 139 => convnext_tiny_stage_3_block_1_pointwise_conv_2(None, 8, 8, 768)  param = 49152 
+layer 140 => convnext_tiny_stage_3_block_1_layer_scale(None, 8, 8, 768)       param = 49152 
+layer 141 => convnext_tiny_stage_3_block_1_identity(None, 8, 8, 768)          param = 49152 
+layer 142 => tf.__operators__.add_16       (None, 8, 8, 768)                  param = 49152 
+layer 143 => convnext_tiny_stage_3_block_2_depthwise_conv(None, 8, 8, 768)    param = 49152 
+layer 144 => convnext_tiny_stage_3_block_2_layernorm(None, 8, 8, 768)         param = 49152 
+layer 145 => convnext_tiny_stage_3_block_2_pointwise_conv_1(None, 8, 8, 3072)  param = 196608 
+layer 146 => convnext_tiny_stage_3_block_2_gelu(None, 8, 8, 3072)              param = 196608 
+layer 147 => convnext_tiny_stage_3_block_2_pointwise_conv_2(None, 8, 8, 768)  param = 49152 
+layer 148 => convnext_tiny_stage_3_block_2_layer_scale(None, 8, 8, 768)       param = 49152 
+layer 149 => convnext_tiny_stage_3_block_2_identity(None, 8, 8, 768)          param = 49152 
+layer 150 => tf.__operators__.add_17       (None, 8, 8, 768)                  param = 49152 
+layer 151 => convnext_tiny_head_gap        (None, 768)                    param = 768 
+layer 152 => convnext_tiny_head_layernorm  (None, 768)                    param = 768 
+layer 153 => convnext_tiny_head_dense      (None, 1000)                    param = 1000 
