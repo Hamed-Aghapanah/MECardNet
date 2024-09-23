@@ -8,9 +8,7 @@ MECardNet is an innovative multi-class segmentation framework for Cardiac MRI da
 
 ![MECardNet Architecture](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide1.PNG)
 
-## Performance
 
-![Performance Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide5.PNG)
 
 ## Multi-scale Convolutional Mixture of Experts
 
@@ -31,6 +29,7 @@ MECardNet surpasses state-of-the-art methods, achieving:
 - **Jaccard Coefficient**: 92.2% ± 0.4%
 - **Hausdorff Distance**: 1.7 ± 0.1
 - **Mean Absolute Distance**: 1.6 ± 0.1
+  ![Performance Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide5.PNG)
 
 The model has been validated on the ACDC dataset as well as the M&Ms-2 and a local dataset, showcasing its robust generalization capabilities.
 
@@ -59,9 +58,20 @@ The model has been validated on the ACDC dataset as well as the M&Ms-2 and a loc
 - **M&Ms-2**: Multi-Disease, Multi-View, and Multi-Center cardiac MRI dataset.
 - **Rajaie CMRI Dataset**: Collected from Shahid Rajaie Cardiovascular Medical and Research Center, Tehran, Iran.
 
+
+ ![Datasets Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide20.PNG)
+
+
+## Post Processing
+
+## \خس
+ ![Datasets Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide3.PNG)
+
+ 
 ## Results
 The performance of MECardNet on different datasets can be found in the `results/` directory. Example segmentation outputs and detailed performance metrics are also available.
 
+croped_Slide20.PNG
 ## Citation
 If you use this model or its components in your research, please cite our work:
 ```
