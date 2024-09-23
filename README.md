@@ -2,25 +2,24 @@
 # MECardNet: A Novel Multi-Scale Convolutional Ensemble Model with Adaptive Deep Supervision for Precise Cardiac MRI Segmentation
 
 ## Overview
-MECardNet is an innovative multi-class segmentation framework for Cardiac MRI data. This model represents a major advancement in the field by leveraging a Multi-scale Convolutional Mixture of Experts (MCME) ensemble technique and Adaptive Deep Supervision.
-![Cardaic Segmentation Overview ](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide16.PNG)
+MECardNet is an innovative multi-class segmentation framework for Cardiac MRI data. This model represents a major advancement in the field by leveraging a Multi-scale Convolutional Mixture of Experts (MCME) ensemble technique and Adaptive Deep Supervision for highly accurate segmentation of left ventricle, right ventricle, and myocardium.
 
+![Cardiac Segmentation Overview](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide16.PNG)
 
-## Graghical Abstract
-![MECardNet Architecture](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide19.PNG)
+## Graphical Abstract
+The graphical abstract below illustrates the architecture and flow of the MECardNet model for segmenting Cardiac MRI data.
 
+![Graphical Abstract](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide19.PNG)
 
 ## Architecture
+The overall architecture of MECardNet is designed based on U-Net, with several key components added for feature enhancement.
+
 ![MECardNet Architecture](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide1.PNG)
 
-
-
-
 ## Multi-scale Convolutional Mixture of Experts
+The MCME Block combines features from multiple scales to improve the representation and accuracy of segmentation.
 
 ![MCME Block](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide2.PNG)
-
-
 
 ## Features
 - **Multi-scale Convolutional Mixture of Experts (MCME)**: Enhances representation learning within the U-Net architecture by adaptively combining layers for better data modeling.
@@ -35,14 +34,15 @@ MECardNet surpasses state-of-the-art methods, achieving:
 - **Jaccard Coefficient**: 92.2% ± 0.4%
 - **Hausdorff Distance**: 1.7 ± 0.1
 - **Mean Absolute Distance**: 1.6 ± 0.1
-  ![Performance Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide5.PNG)
+
+![Performance Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide5.PNG)
 
 The model has been validated on the ACDC dataset as well as the M&Ms-2 and a local dataset, showcasing its robust generalization capabilities.
 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/MECardNet.git
+    git clone https://github.com/Hamed-Aghapanah/MECardNet.git
     ```
 2. Install the required Python libraries:
     ```bash
@@ -64,19 +64,16 @@ The model has been validated on the ACDC dataset as well as the M&Ms-2 and a loc
 - **M&Ms-2**: Multi-Disease, Multi-View, and Multi-Center cardiac MRI dataset.
 - **Rajaie CMRI Dataset**: Collected from Shahid Rajaie Cardiovascular Medical and Research Center, Tehran, Iran.
 
-
- ![Datasets Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide20.PNG)
-
+![Datasets Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide20.PNG)
 
 ## Post Processing
-## \خس
- ![Datasets Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide3.PNG)
+Post-processing techniques help refine the segmentation results to ensure the anatomical accuracy of the predictions.
 
- 
+![Post Processing Steps](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide3.PNG)
+
 ## Results
 The performance of MECardNet on different datasets can be found in the `results/` directory. Example segmentation outputs and detailed performance metrics are also available.
 
-croped_Slide20.PNG
 ## Citation
 If you use this model or its components in your research, please cite our work:
 ```
