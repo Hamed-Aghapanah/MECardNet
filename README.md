@@ -2,7 +2,21 @@
 # MECardNet: A Novel Multi-Scale Convolutional Ensemble Model with Adaptive Deep Supervision for Precise Cardiac MRI Segmentation
 
 ## Overview
-MECardNet is an innovative multi-class segmentation framework for Cardiac MRI data. This model represents a major advancement in the field by leveraging a Multi-scale Convolutional Mixture of Experts (MCME) ensemble technique and Adaptive Deep Supervision, seamlessly integrated into a U-Net architecture. The model achieves superior performance in segmenting the left ventricle, right ventricle, and myocardium from CMRI data.
+MECardNet is an innovative multi-class segmentation framework for Cardiac MRI data. This model represents a major advancement in the field by leveraging a Multi-scale Convolutional Mixture of Experts (MCME) ensemble technique and Adaptive Deep Supervision.
+
+## Architecture
+
+![MECardNet Architecture](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide1.PNG)
+
+## Performance
+
+![Performance Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide5.PNG)
+
+## Multi-scale Convolutional Mixture of Experts
+
+![MCME Block](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide2.PNG)
+
+
 
 ## Features
 - **Multi-scale Convolutional Mixture of Experts (MCME)**: Enhances representation learning within the U-Net architecture by adaptively combining layers for better data modeling.
