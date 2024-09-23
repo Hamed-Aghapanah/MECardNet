@@ -3,10 +3,16 @@
 
 ## Overview
 MECardNet is an innovative multi-class segmentation framework for Cardiac MRI data. This model represents a major advancement in the field by leveraging a Multi-scale Convolutional Mixture of Experts (MCME) ensemble technique and Adaptive Deep Supervision.
+![Cardaic Segmentation Overview ](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide16.PNG)
+
+
+## Graghical Abstract
+![MECardNet Architecture](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide19.PNG)
+
 
 ## Architecture
-
 ![MECardNet Architecture](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide1.PNG)
+
 
 
 
@@ -63,7 +69,6 @@ The model has been validated on the ACDC dataset as well as the M&Ms-2 and a loc
 
 
 ## Post Processing
-
 ## \خس
  ![Datasets Comparison](https://github.com/Hamed-Aghapanah/MECardNet/blob/main/fig/croped_Slide3.PNG)
 
