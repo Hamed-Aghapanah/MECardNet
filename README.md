@@ -46,7 +46,7 @@ The model has been validated on the ACDC dataset as well as the M&Ms-2 and a loc
     ```
 2. Install the required Python libraries:
     ```bash
-    pip install -r requirements.txt
+    pip install -r requirements -2.txt
     ```
 
 ## Usage
